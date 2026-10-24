@@ -18,4 +18,14 @@ class DataFetcher:
       return None
 
   def get_news_headlines(self):
-    pass
+    """
+    MOCK DATA: In a production environment, this would be replaced with a call to an external API (Such as NewsAPI).
+    Simulated for ease of demonstration and to avoid API key requirements.
+    """
+    return [
+          f"{self.ticker} reports record-breaking quarterly earnings.",
+          f"Analysts downgrade {self.ticker} citing supply chain concerns.",
+          f"New product launch from {self.ticker} receives glowing reviews.",
+          f"Market volatility impacts {self.ticker} stock price in early trading.",
+          f"Investors remain optimistic about {self.ticker}'s long-term strategy."
+      ]
