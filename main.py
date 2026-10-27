@@ -1,5 +1,5 @@
 import sys
-from data_fetcher import DataFetcher
+from datafetcher import DataFetcher
 from analyzer import SentimentAnalyzer
 
 def main():
