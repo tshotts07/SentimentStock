@@ -18,8 +18,8 @@ class SentimentAnalyzer:
   def interpret_score(score):
     """Categorizes score into readable format."""
     if score > 0.1:
-      return "Bullish (Positive Sentiment)
+      return "Bullish (Positive Sentiment)"
     elif score < -0.1:
-      return "Bearish (Negative Sentiment)
+      return "Bearish (Negative Sentiment)"
     else:
       return "Neutral"
