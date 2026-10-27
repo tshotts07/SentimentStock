@@ -23,5 +23,5 @@ SentimentStock is a Python-based financial analysis tool that correlates market 
 ### Installation
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/SentimentStock.git
+   git clone https://github.com/tshotts07/SentimentStock.git
    cd SentimentStock
